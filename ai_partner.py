@@ -140,7 +140,7 @@ for message in st.session_state.messages:
 
 
 # 创建与AI大模型交互的客户端对象（DEEPSEEK_API_KEY 环境变量的名字，值是Deepseek的API_KEY的）
-client = OpenAI(api_key=st.secrets["DEEPSEEK_API_KEY"],base_url="https://api.deepseek.com")
+client = OpenAI(api_key=st.secrets["sk-758f6c84948a48bd98858eece6f497a9"],base_url="https://api.deepseek.com")
 
 # client = OpenAI(api_key=os.environ.get('DEEPSEEK_API_KEY'),base_url="https://api.deepseek.com")
 
